@@ -41,6 +41,7 @@ static int asserta_gprolog(char *n1, char *n2)
 	arg[1] = Pl_Mk_String(n2);
 	arg2[0] = Pl_Mk_Callable(func, 2, arg);
 	func = Pl_Find_Atom("asserta");
+	printf("debug: func(asserta)=[%d]\n", func);
 	res = Pl_Query_Call(func, 1, arg2);
 
 	Pl_Query_End(PL_RECOVER);

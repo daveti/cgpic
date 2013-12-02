@@ -1,0 +1,56 @@
+Daves-MacBook-Pro-2:gqicwt_d daveti$ ./gqicwt_d
+I know - it's weird...
+thread compute !5 = [120]
+debug: func(anc)=[8316]
+query_gprolog: The ancestors of [john]:
+  solution: peter
+  solution: bob
+  solution: jane
+  solution: mary
+  solution: paul
+5 solution(s)
+debug: func(anc)=[8316]
+query_gprolog: Is [bob] ancestor of [john]: [1]
+debug: func(anc)=[8316]
+query_gprolog: Is [john] ancestor of [bob]: [0]
+debug: func(parent)=[13767]
+debug: func(asserta)=[14623]
+asserta_gprolog: parent(daveti, john) binding added [1]
+debug: func(anc)=[8316]
+query_gprolog: The ancestors of [john]:
+  solution: daveti
+  solution: peter
+  solution: bob
+  solution: jane
+  solution: mary
+  solution: paul
+6 solution(s)
+Daves-MacBook-Pro-2:gqicwt_d daveti$ ./gqicwt_d
+I know - it's weird...
+thread compute !5 = [120]
+debug: func(anc)=[8316]
+query_gprolog: The ancestors of [john]:
+  solution: peter
+  solution: bob
+  solution: jane
+  solution: mary
+  solution: paul
+5 solution(s)
+debug: func(anc)=[8316]
+query_gprolog: Is [bob] ancestor of [john]: [1]
+debug: func(anc)=[8316]
+query_gprolog: Is [john] ancestor of [bob]: [0]
+debug: func(parent)=[13767]
+debug: func(asserta)=[14623]
+asserta_gprolog: parent(daveti, john) binding added [1]
+debug: func(anc)=[8316]
+query_gprolog: The ancestors of [john]:
+  solution: daveti
+  solution: peter
+  solution: bob
+  solution: jane
+  solution: mary
+  solution: paul
+6 solution(s)
+Daves-MacBook-Pro-2:gqicwt_d daveti$ 
+
