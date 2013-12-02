@@ -35,6 +35,7 @@ static int asserta_gprolog(char *n1, char *n2)
 	PlBool res;
 
 	func = Pl_Find_Atom("parent");
+	printf("debug: func(parent)=[%d]\n", func);
 	Pl_Query_Begin(PL_TRUE);
 	arg[0] = Pl_Mk_String(n1);
 	arg[1] = Pl_Mk_String(n2);
@@ -55,6 +56,7 @@ static int query2_gprolog(char *n1, char *n2)
 	PlBool res;
 
 	func = Pl_Find_Atom("anc");
+	printf("debug: func(anc)=[%d]\n", func);
 	Pl_Query_Begin(PL_TRUE);
 	arg[0] = Pl_Mk_String(n1);
 	arg[1] = Pl_Mk_String(n2);
@@ -76,6 +78,7 @@ static int query_gprolog(char *n2)
 	PlBool res;
 
 	func = Pl_Find_Atom("anc");
+	printf("debug: func(anc)=[%d]\n", func);
 	Pl_Query_Begin(PL_TRUE);
 	arg[0] = Pl_Mk_Variable();
 	arg[1] = Pl_Mk_String(n2);
